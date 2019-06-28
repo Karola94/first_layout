@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all dev:*",    
-    "dev:scss": "sass -w sass/*.scss css/*.css",
+    "dev:scss": "sass  sass/style.scss css/style.css",
     "dev:browsersync": "node_modules/.bin/browser-sync start --server --files 'css/*.css' '*.html'"
   },
   "repository": {
